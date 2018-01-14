@@ -2,7 +2,7 @@
 Ext2 file-system splitter for Linux.
 
 This is a C NetBeans project, compiled with GCC 5.4.0 and tested with Ubuntu
-Linux 16.04.5 LTS x64.
+Linux 16.04.5 LTS x64. No leak detected using Valgrind.
 
 This piece of software is splitting an ext2 file-system dump into blocks and
 checks if some blocks are empty (i.e. full of '\0'). The directory containing
