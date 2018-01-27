@@ -11,7 +11,7 @@ binary. It provides an easy access to blocks: After their extraction, they can
 be accessed and manipulated as usual raw data files. This program should handle
 ext3 and ext4 file-system as well (not tested).
 
-Usage example: "ext2split 4096 ~/dsk.img", will split the ext2 file-system
+Usage example: "./ext2split 4096 ~/dsk.img", will split the ext2 file-system
 image "dsk.img" into blocks of 4096 bytes (excepted the first one, number 0,
 which is the boot block of a fixed size of 1024 bytes as an ext2 file-system).
 
