@@ -1,5 +1,5 @@
 # ext2split
-Ext2 file-system splitter for Linux.
+C ext2 file-system splitter for Linux.
 
 This is a C NetBeans project, compiled with GCC 5.4.0 and tested with Ubuntu
 Linux 16.04.5 LTS x64. No leak detected using Valgrind.
